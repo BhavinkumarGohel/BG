@@ -1674,13 +1674,13 @@ p {
 /* Base container splitter grid alignment layer */
 .hero-layout-wrapper {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: var(--spacing-3xl);
     position: relative;
     z-index: 5;
     width: 100%;
-    padding-top: 40px; /* Offset spacing for top bar clearance */
+    padding-top: 60px; /* Offset spacing for top bar clearance */
 }
 
 /* Restricts textual bounds to keep a clean horizontal ratio symmetry */
