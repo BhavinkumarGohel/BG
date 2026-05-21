@@ -1700,9 +1700,8 @@ p {
 
 .hero-personal-img img {
     width: 100%;
-    max-width: 380px;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: var(--radius-xl);
     /* Yields clear dimensional separation from dark digital asset background spaces */
     filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.5));
