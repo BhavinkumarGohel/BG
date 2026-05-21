@@ -1685,17 +1685,17 @@ p {
 
 /* Restricts textual bounds to keep a clean horizontal ratio symmetry */
 .hero-left {
-    flex: 1.2;
-    max-width: 60%;
+    flex: 1;
+    max-width: 45%;
 }
 
 /* Portrait profile frame parameters housing your webp */
 .hero-right {
-    flex: 0.8;
-    max-width: 35%;
+    flex: 1;
+    max-width: 50%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: stretch;
 }
 
 .hero-personal-img img {
