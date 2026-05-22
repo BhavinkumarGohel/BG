@@ -202,7 +202,7 @@ p {
 
 .logo-tagline {
     font-size: 0.7rem;
-    color: var(--color-gray-500);
+    color: var(--color-gray-dark);
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
